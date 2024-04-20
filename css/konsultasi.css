@@ -1,0 +1,1553 @@
+.rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: #1b1f2d;
+    width: 100%;
+    height: 100%;
+  }
+  .group {
+    width: 131px;
+    height: 10px;
+    position: relative;
+    display: none;
+  }
+  .konsultasi-child,
+  .shape {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+  }
+  .konsultasi-child {
+    position: relative;
+    background-color: var(--color-gainsboro);
+    display: none;
+  }
+  .shape {
+    position: absolute;
+    margin: 0 !important;
+    right: 99px;
+    bottom: 11px;
+    background-color: var(--gray-4);
+  }
+  .benefits-child {
+    width: 736px;
+    height: 1552px;
+    position: relative;
+    background-color: var(--color-lightsteelblue);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .icon-pair,
+  .icon-pair1 {
+    height: 59.6px;
+    width: 28px;
+    position: absolute;
+    margin: 0 !important;
+    top: 180px;
+    z-index: 2;
+  }
+  .icon-pair {
+    right: 0;
+  }
+  .icon-pair1 {
+    left: 0;
+    object-fit: contain;
+  }
+  .background-icon {
+    height: 420px;
+    flex: 1;
+    position: relative;
+    border-radius: 40px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .benefit-card,
+  .benefit-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .benefit-detail {
+    flex: 1;
+    justify-content: flex-start;
+    padding: 0 71px 0 76px;
+    position: relative;
+  }
+  .benefit-card {
+    align-self: stretch;
+    justify-content: flex-end;
+    padding: 0 var(--padding-5xs) 0 4px;
+  }
+  .support-shapes-child,
+  .support-shapes-inner,
+  .support-shapes-item {
+    height: 20px;
+    width: 21px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-darkslateblue);
+    transform: rotate(-0.4deg);
+    z-index: 2;
+  }
+  .support-shapes-inner,
+  .support-shapes-item {
+    background-color: var(--color-whitesmoke);
+  }
+  .support,
+  .support-shapes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .support-shapes {
+    width: 138.1px;
+    justify-content: space-between;
+    padding: 0 var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+  }
+  .support {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 10px 11.9px 0;
+  }
+  .mengapa-pentingnya-konsultasi {
+    height: 58px;
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .consultation {
+    width: 582px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-6xs) 18px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .reason-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke);
+    width: 457px;
+    height: 55px;
+    z-index: 2;
+  }
+  .diagnosis-akurat {
+    position: absolute;
+    top: 14px;
+    left: 23px;
+    font-weight: 500;
+    display: inline-block;
+    width: 454px;
+    height: 86px;
+    white-space: nowrap;
+    z-index: 3;
+  }
+  .reason-content {
+    height: 100px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .reason-detail {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 14px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .guidance-child {
+    height: 55px;
+    width: 471px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .memberikan-dukungan {
+    width: 382px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    flex-shrink: 0;
+    white-space: nowrap;
+    max-width: 100%;
+    z-index: 3;
+  }
+  .people-connecting-puzzle-onlin {
+    height: 102px;
+    width: 112px;
+    position: absolute;
+    margin: 0 !important;
+    top: -27px;
+    left: -84px;
+    border-radius: 54px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .guidance,
+  .reason-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .guidance {
+    width: 471px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke);
+    flex-direction: row;
+    padding: 16px 37px;
+    box-sizing: border-box;
+    position: relative;
+    white-space: nowrap;
+    z-index: 2;
+    text-align: left;
+  }
+  .reason-card {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .prevention-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke);
+    width: 466px;
+    height: 57px;
+    z-index: 2;
+  }
+  .mencegah-komplikasi {
+    position: absolute;
+    height: calc(100% - 3px);
+    top: 3px;
+    left: 27px;
+    font-weight: 500;
+    display: inline-block;
+    width: 387px;
+    z-index: 3;
+  }
+  .prevention-content {
+    height: 66px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .prevention,
+  .reasons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .prevention {
+    width: 476px;
+    flex-direction: row;
+    padding: 0 var(--padding-8xs);
+    box-sizing: border-box;
+  }
+  .reasons {
+    width: 491px;
+    flex-direction: column;
+    gap: 66px;
+  }
+  .bottom-divider-icon,
+  .top-divider-icon {
+    width: 106px;
+    height: 102px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 626px;
+    left: 109px;
+    border-radius: 55px;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .top-divider-icon {
+    width: 107px;
+    height: 107px;
+    bottom: 389px;
+    left: 100px;
+    border-radius: 60px;
+  }
+  .logo-background {
+    position: absolute;
+    width: calc(100% - 7px);
+    top: 1px;
+    right: 4px;
+    left: 3px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 53px;
+  }
+  .karya-seni-tanpa-judul-2-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .benefits,
+  .logo-background-parent {
+    margin: 0 !important;
+    position: absolute;
+  }
+  .logo-background-parent {
+    width: 63px;
+    height: 63px;
+    top: 0;
+    left: 90px;
+    z-index: 3;
+  }
+  .benefits {
+    width: 736px;
+    bottom: -1494px;
+    left: 0;
+    background-color: var(--color-lightsteelblue);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 131px 61px 398px;
+    box-sizing: border-box;
+    gap: 64px;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .navigation-child {
+    height: 67px;
+    width: 1433px;
+    position: relative;
+    background-color: var(--white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+    max-width: 100%;
+  }
+  .home {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 49px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .navigation-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) 0 0;
+  }
+  .frame-child {
+    height: 35px;
+    width: 88px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-steelblue);
+    display: none;
+  }
+  .konsultasi1 {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 78px;
+    z-index: 1;
+  }
+  .page-title,
+  .rectangle-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-steelblue);
+    flex-direction: row;
+    padding: var(--padding-12xs) var(--padding-8xs) var(--padding-11xs);
+    z-index: 3;
+  }
+  .page-title {
+    flex-direction: column;
+    padding: var(--padding-6xs) 0 0;
+    color: var(--white);
+  }
+  .activity {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 61px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .navigation-items1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-11xs) 0 0;
+  }
+  .about {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 50px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .navigation-items2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-11xs) 0 0;
+  }
+  .contact {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 59px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .navigation-items3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-8xs) 0 0;
+  }
+  .donasi {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 57px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .navigation-items4 {
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xs) var(--padding-xl) 0 0;
+    box-sizing: border-box;
+  }
+  .page-circle-icon {
+    height: 52px;
+    width: 52px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 4;
+  }
+  .hero,
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .navigation {
+    flex: 1;
+    background-color: var(--white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-xl) var(--padding-6xs) 546px;
+    box-sizing: border-box;
+    gap: 42.3px;
+    z-index: 2;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--gray-1);
+    font-family: var(--font-poppins);
+  }
+  .hero {
+    align-self: stretch;
+    justify-content: flex-start;
+    position: relative;
+    text-align: justify;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .konsultasi-item {
+    width: 44px;
+    height: 44px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-gainsboro);
+    display: none;
+    z-index: 7;
+  }
+  .daftar-dokter {
+    margin: 0;
+    height: 75px;
+    width: 370px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: calc(100% - 0px);
+  }
+  .doctors-title {
+    align-self: stretch;
+    height: 90px;
+    border-radius: 4px;
+    background-color: #538fe9;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-6xl) var(--padding-4xl) 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .doctor-rows-child {
+    height: 291px;
+    width: 598px;
+    position: relative;
+    border-radius: var(--br-4xl);
+    background-color: var(--color-gainsboro);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: none;
+    max-width: 100%;
+  }
+  .card-backgrounds-icon {
+    height: 216px;
+    width: 193px;
+    position: relative;
+    border-radius: var(--br-8xl);
+    object-fit: cover;
+    z-index: 1;
+  }
+  .dokter-jiwa,
+  .dr-kevin {
+    position: absolute;
+    display: inline-block;
+  }
+  .dr-kevin {
+    margin: 0;
+    top: 0;
+    left: 0;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: center;
+    width: 213px;
+    height: 75px;
+    z-index: 1;
+  }
+  .dokter-jiwa {
+    top: 47px;
+    left: 46px;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-100);
+    width: 183px;
+    height: 37px;
+    z-index: 2;
+  }
+  .suitcase-icon {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 3;
+  }
+  .pengalaman-6-tahun {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .experience-details,
+  .experience-years {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .experience-years {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+    min-width: 156px;
+  }
+  .experience-details {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-sm);
+  }
+  .graduationcap-icon {
+    height: 29px;
+    width: 29px;
+    position: relative;
+    min-height: 29px;
+    z-index: 1;
+  }
+  .universitas-indonesia {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .education-details {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+    min-width: 156px;
+  }
+  .education,
+  .education-details,
+  .experience {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .education {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-sm);
+  }
+  .experience {
+    position: absolute;
+    top: 84px;
+    left: 42px;
+    width: 284px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-12xs);
+    font-size: var(--font-size-base);
+  }
+  .doctor-names {
+    height: 145px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .doctor-specs {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-mini) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .pilih {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-acme);
+    color: var(--color-whitesmoke);
+    text-align: left;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .doctor-actions {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-35xl);
+    background-color: var(--color-darkslateblue);
+    border-radius: var(--br-7xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .doctor-actions:hover,
+  .pilih-container:hover,
+  .pilih-wrapper:hover {
+    background-color: var(--color-cornflowerblue-100);
+  }
+  .doctor-details,
+  .doctor-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .doctor-details {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: var(--gap-34xl);
+  }
+  .doctor-info {
+    width: 341px;
+    align-items: flex-start;
+    padding: var(--padding-6xs) 0 0;
+    box-sizing: border-box;
+    min-width: 341px;
+  }
+  .doctor-rows,
+  .doctor-rows-item {
+    border-radius: var(--br-4xl);
+    background-color: var(--color-gainsboro);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+  }
+  .doctor-rows {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) var(--padding-4xl) var(--padding-2xl);
+    box-sizing: border-box;
+    gap: 5px;
+  }
+  .doctor-rows-item {
+    height: 291px;
+    width: 598px;
+    position: relative;
+    display: none;
+  }
+  .doctor-rows-inner {
+    height: 216px;
+    width: 193px;
+    position: relative;
+    border-radius: 14px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .dokter-umum,
+  .dr-siti-aisyah {
+    position: absolute;
+    display: inline-block;
+  }
+  .dr-siti-aisyah {
+    margin: 0;
+    top: 0;
+    left: 3px;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    width: 315px;
+    height: 75px;
+    z-index: 1;
+  }
+  .dokter-umum {
+    top: 47px;
+    left: 4px;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-100);
+    width: 183px;
+    height: 37px;
+    z-index: 2;
+  }
+  .suitcase-icon1 {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 3;
+  }
+  .pengalaman-5-tahun {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .general-experience,
+  .general-years {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .general-years {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+  }
+  .general-experience {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-sm);
+  }
+  .graduationcap-icon1 {
+    height: 29px;
+    width: 29px;
+    position: relative;
+    min-height: 29px;
+    z-index: 1;
+  }
+  .universitas-airlangga {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .general-uni-details {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .general-details,
+  .general-education,
+  .general-uni-details {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .general-education {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-sm);
+  }
+  .general-details {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    width: 284px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-12xs);
+    font-size: var(--font-size-base);
+  }
+  .dr-siti-aisyah-parent {
+    align-self: stretch;
+    height: 145px;
+    position: relative;
+  }
+  .pilih1 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-acme);
+    color: var(--color-whitesmoke);
+    text-align: left;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .frame-wrapper,
+  .pilih-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .pilih-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-35xl);
+    background-color: var(--color-darkslateblue);
+    border-radius: var(--br-7xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .frame-wrapper {
+    justify-content: flex-end;
+    padding: 0 19px;
+  }
+  .frame-div,
+  .frame-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: var(--gap-34xl);
+  }
+  .frame-div {
+    flex: 1;
+    align-items: flex-start;
+    padding: var(--padding-6xs) 0 0;
+    box-sizing: border-box;
+    min-width: 207px;
+  }
+  .doctor-rows1,
+  .rectangle-div {
+    border-radius: var(--br-4xl);
+    background-color: var(--color-gainsboro);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 100%;
+  }
+  .doctor-rows1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-5xl) 17px var(--padding-2xl) var(--padding-4xl);
+    box-sizing: border-box;
+    gap: var(--gap-28xl);
+  }
+  .rectangle-div {
+    height: 291px;
+    width: 598px;
+    position: relative;
+    display: none;
+  }
+  .rectangle-icon {
+    height: 216px;
+    width: 193px;
+    position: relative;
+    border-radius: var(--br-8xl);
+    object-fit: cover;
+    z-index: 1;
+  }
+  .dokter-jiwa1,
+  .dr-felix {
+    position: absolute;
+    display: inline-block;
+  }
+  .dr-felix {
+    margin: 0;
+    top: 0;
+    left: 6px;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    width: 213px;
+    height: 75px;
+    z-index: 1;
+  }
+  .dokter-jiwa1 {
+    top: 47px;
+    left: 4px;
+    font-size: var(--font-size-lg);
+    color: var(--color-gray-100);
+    width: 183px;
+    height: 37px;
+    z-index: 2;
+  }
+  .suitcase-icon2 {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    z-index: 3;
+  }
+  .pengalaman-4-tahun {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .pengalaman-4-tahun-wrapper,
+  .suitcase-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .pengalaman-4-tahun-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-5xs) 0 0;
+    box-sizing: border-box;
+    min-width: 156px;
+  }
+  .suitcase-parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: var(--gap-sm);
+  }
+  .graduationcap-icon2 {
+    height: 29px;
+    width: 29px;
+    position: relative;
+    min-height: 29px;
+    z-index: 1;
+  }
+  .universitas-gadjah-mada {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .universitas-gadjah-mada-wrapper {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+    min-width: 156px;
+  }
+  .frame-parent1,
+  .graduationcap-parent,
+  .universitas-gadjah-mada-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .graduationcap-parent {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gap-sm);
+  }
+  .frame-parent1 {
+    position: absolute;
+    top: 84px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-12xs);
+    font-size: var(--font-size-base);
+  }
+  .dr-felix-parent {
+    height: 145px;
+    flex: 1;
+    position: relative;
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-mini) 0 0;
+  }
+  .pilih2 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-acme);
+    color: var(--color-whitesmoke);
+    text-align: left;
+    display: inline-block;
+    min-width: 32px;
+  }
+  .pilih-container {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) var(--padding-35xl);
+    background-color: var(--color-darkslateblue);
+    border-radius: var(--br-7xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .doctor-rows-inner1,
+  .frame-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-group {
+    align-self: stretch;
+    align-items: flex-end;
+    gap: var(--gap-34xl);
+  }
+  .doctor-rows-inner1 {
+    width: 299px;
+    align-items: flex-start;
+    padding: var(--padding-6xs) 0 0;
+    box-sizing: border-box;
+    min-width: 299px;
+  }
+  .doctor-cards,
+  .doctor-rows2 {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .doctor-rows2 {
+    border-radius: var(--br-4xl);
+    background-color: var(--color-gainsboro);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: var(--padding-5xl) var(--padding-4xl) var(--padding-2xl);
+    box-sizing: border-box;
+    gap: var(--gap-28xl);
+    max-width: 100%;
+  }
+  .doctor-cards {
+    flex-direction: column;
+    gap: 35px;
+    font-size: var(--font-size-10xl);
+    color: var(--color-black);
+  }
+  .doctor-cards,
+  .doctors-header,
+  .doctors-header-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .doctors-header {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 79px;
+  }
+  .doctors-header-wrapper {
+    width: 692px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 47px 60px;
+    box-sizing: border-box;
+  }
+  .background-icon1 {
+    width: 1437px;
+    height: 409px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .learn-more {
+    align-self: stretch;
+    height: 42.3px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .artikel,
+  .donasi1,
+  .kegiatan,
+  .konsultasi2,
+  .kontak,
+  .tentang-kami {
+    margin: 0;
+  }
+  .about-alyeska-press-container {
+    width: 93.8px;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-200);
+    display: inline-block;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .about-column {
+    position: absolute;
+    top: 0.2px;
+    left: 243.4px;
+    width: 97.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8.3px;
+  }
+  .tickets-booking {
+    height: 74.1px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .tickets {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1.4px;
+  }
+  .donasi2,
+  .konsultasi3,
+  .pencarian-kegitan {
+    margin: 0;
+  }
+  .lift-tickets-season-container {
+    margin-top: -23.300000000000185px;
+    height: 141.1px;
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .booking-column,
+  .season-pass {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .season-pass {
+    width: 137.4px;
+    height: 117.8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+  }
+  .booking-column {
+    position: absolute;
+    top: 0;
+    left: 433.8px;
+    width: 246.8px;
+    flex-direction: column;
+  }
+  .contact-us {
+    width: 139.2px;
+    height: 48.6px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .lift-tickets-season {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-200);
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .contact-column {
+    position: absolute;
+    top: 0;
+    left: 647.7px;
+    width: 184.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.4px;
+  }
+  .logo-footer-background {
+    position: absolute;
+    width: calc(100% - 13.4px);
+    top: 0.4px;
+    right: 7.6px;
+    left: 5.8px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 115.7px;
+  }
+  .karya-seni-tanpa-judul-2-11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .logo-footer-background-parent {
+    position: absolute;
+    top: 47.2px;
+    left: 0;
+    width: 120.3px;
+    height: 137.6px;
+    z-index: 1;
+  }
+  .social {
+    height: 36px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .social-header {
+    width: 56.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .bxl-facebook-icon,
+  .instagram-logo-icon {
+    position: relative;
+    min-height: 18px;
+    z-index: 1;
+  }
+  .bxl-facebook-icon {
+    align-self: stretch;
+    width: 9.7px;
+    max-height: 100%;
+  }
+  .instagram-logo-icon {
+    height: 17.6px;
+    width: 18.7px;
+    object-fit: cover;
+  }
+  .bxl-twitter-icon {
+    width: 20.4px;
+    height: 15.6px;
+    position: relative;
+    z-index: 1;
+  }
+  .twitter-icon {
+    width: 20.4px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+  }
+  .social-icons,
+  .social-media,
+  .twitter-icon {
+    display: flex;
+    align-items: flex-start;
+  }
+  .social-icons {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .social-media {
+    position: absolute;
+    top: 6px;
+    left: 911.4px;
+    width: 102px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14.5px;
+  }
+  .navigation-column {
+    width: 1013.4px;
+    height: 262.4px;
+    position: relative;
+    max-width: 100%;
+  }
+  .divider,
+  .divider1 {
+    position: absolute;
+    top: 0;
+    left: 0.2px;
+    background-color: var(--color-gray-300);
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .divider1 {
+    top: 0.1px;
+    left: 0;
+    z-index: 2;
+  }
+  .dividers {
+    height: 1.2px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .dividers-wrapper,
+  .footer-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .dividers-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 18.9px;
+    box-sizing: border-box;
+  }
+  .footer-content {
+    width: 1113.4px;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .alyeska-resor {
+    height: 34.9px;
+    width: 248.9px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .footer-container {
+    width: 1097.3px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .background-parent,
+  .konsultasi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left;
+  }
+  .background-parent {
+    margin-right: -2px;
+    align-self: stretch;
+    background-color: var(--color-steelblue);
+    padding: var(--padding-6xl) 155px 13.5px;
+    box-sizing: border-box;
+    gap: 44px;
+    max-width: 100%;
+    z-index: 2;
+    font-size: var(--font-size-lg);
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+  .konsultasi {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-whitesmoke);
+    gap: 138px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 36px;
+    color: var(--color-whitesmoke);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1200px) {
+    .navigation {
+      padding-left: 273px;
+      box-sizing: border-box;
+    }
+    .doctors-header-wrapper {
+      padding-bottom: 39px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .daftar-dokter {
+      font-size: var(--font-size-10xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .navigation {
+      gap: 21px;
+      padding-left: 136px;
+      box-sizing: border-box;
+    }
+    .card-backgrounds-icon {
+      flex: 1;
+    }
+    .doctor-info {
+      flex: 1;
+      min-width: 100%;
+    }
+    .doctor-rows {
+      flex-wrap: wrap;
+    }
+    .doctor-rows-inner {
+      flex: 1;
+    }
+    .doctor-rows1 {
+      flex-wrap: wrap;
+      gap: var(--gap-4xl);
+    }
+    .doctor-rows-inner1,
+    .rectangle-icon {
+      flex: 1;
+    }
+    .doctor-rows2 {
+      flex-wrap: wrap;
+      gap: var(--gap-4xl);
+    }
+    .doctor-cards {
+      gap: 17px;
+    }
+    .doctors-header {
+      gap: 39px;
+    }
+    .doctors-header-wrapper {
+      padding-left: var(--padding-4xl);
+      padding-right: var(--padding-4xl);
+      padding-bottom: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .background-parent {
+      gap: 22px;
+      padding-left: var(--padding-58xl);
+      padding-right: var(--padding-58xl);
+      box-sizing: border-box;
+    }
+    .konsultasi {
+      gap: 69px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .navigation {
+      display: none;
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .daftar-dokter {
+      font-size: 22px;
+    }
+    .dr-kevin {
+      font-size: var(--font-size-4xl);
+    }
+    .education,
+    .experience-details {
+      flex-wrap: wrap;
+    }
+    .doctor-names {
+      height: auto;
+      min-height: 145;
+    }
+    .doctor-details {
+      gap: var(--gap-7xl);
+    }
+    .dr-siti-aisyah {
+      font-size: var(--font-size-4xl);
+    }
+    .frame-parent {
+      gap: var(--gap-7xl);
+    }
+    .dr-felix {
+      font-size: var(--font-size-4xl);
+    }
+    .graduationcap-parent,
+    .suitcase-parent {
+      flex-wrap: wrap;
+    }
+    .dr-felix-parent {
+      height: auto;
+      min-height: 145;
+    }
+    .frame-group {
+      gap: var(--gap-7xl);
+    }
+    .doctors-header {
+      gap: var(--gap-xl);
+    }
+    .background-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }

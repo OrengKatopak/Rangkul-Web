@@ -1,0 +1,1302 @@
+.rectangle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-3xs);
+    background-color: #1b1f2d;
+    width: 100%;
+    height: 100%;
+  }
+  .donasi-child,
+  .group {
+    width: 131px;
+    height: 10px;
+    position: relative;
+    display: none;
+  }
+  .donasi-child {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .content-area {
+    height: 80px;
+    width: 1440px;
+    position: absolute;
+    margin: 0 !important;
+    top: -16px;
+    right: -1250px;
+    background-color: var(--color-whitesmoke-100);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+  }
+  .image-placeholder {
+    position: absolute;
+    width: calc(100% - 7px);
+    top: 1px;
+    right: 4px;
+    left: 3px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 53px;
+  }
+  .karya-seni-tanpa-judul-2-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .image-placeholder-parent {
+    height: 63px;
+    flex: 1;
+    position: relative;
+    z-index: 2;
+  }
+  .content-wrapper {
+    width: 63px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .activity,
+  .home,
+  .konsultasi {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 49px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .activity,
+  .konsultasi {
+    min-width: 78px;
+  }
+  .activity {
+    min-width: 61px;
+  }
+  .home-nav-link,
+  .navigation-links {
+    display: flex;
+    align-items: flex-start;
+  }
+  .home-nav-link {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .navigation-links {
+    width: 277px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+    box-sizing: border-box;
+  }
+  .about {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 50px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .about-nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .contact {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 59px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .contact-options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .donation-link-container-child {
+    height: 35px;
+    width: 88px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-steelblue);
+    display: none;
+  }
+  .donasi1 {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 57px;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .donation-link-container {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-steelblue);
+    flex-direction: row;
+    padding: var(--padding-12xs) var(--padding-mini) var(--padding-11xs);
+    z-index: 2;
+    color: var(--color-whitesmoke-100);
+  }
+  .contact-link-wrapper,
+  .contact-nav-link,
+  .donation-link-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact-link-wrapper {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .contact-nav-link {
+    width: 218px;
+    flex-direction: column;
+    padding: 9px 0 0;
+    box-sizing: border-box;
+  }
+  .decorative-element-icon {
+    height: 52px;
+    width: 52px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .navigation-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-28xl);
+  }
+  .content-container,
+  .navigation-wrapper-wrapper {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .navigation-wrapper-wrapper {
+    width: 738px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+  }
+  .content-container {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6px 73px var(--padding-12xs) 123px;
+    gap: var(--gap-xl);
+  }
+  .salurkan-donasi-tebaik {
+    height: 38px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .hero-content {
+    width: 846px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 46px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .cta-button-shape {
+    width: 1452px;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: -15px;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0), #fff);
+  }
+  .cta-button-child {
+    height: 323px;
+    width: 479px;
+    position: absolute;
+    margin: 0 !important;
+    top: -75px;
+    left: 40px;
+    border-radius: 14px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .terkadang-pertolongan-bukan {
+    width: 655px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: justify;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .cta-button,
+  .cta-button-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .cta-button-label {
+    flex: 1;
+    justify-content: flex-end;
+  }
+  .cta-button {
+    width: 1228px;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .donasi2 {
+    margin: 0;
+    height: 80px;
+    position: relative;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    z-index: 3;
+  }
+  .cta-content {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-2xs) 58px var(--padding-17xl) 60px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 57px;
+    max-width: 100%;
+  }
+  .form-container-child {
+    height: 88px;
+    width: 1270px;
+    position: relative;
+    border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+    background-color: var(--color-cornflowerblue-100);
+    display: none;
+    max-width: 100%;
+  }
+  .form-field-divider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: var(--color-darkslateblue-100);
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+  .group-icon {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    width: 38.5px;
+    height: 40.9px;
+    z-index: 4;
+  }
+  .form-fields {
+    height: 67px;
+    flex: 1;
+    position: relative;
+  }
+  .form-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    width: 67px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .form-container {
+    flex: 1;
+    border-radius: var(--br-7xs) var(--br-7xs) 0 0;
+    background-color: var(--color-cornflowerblue-100);
+    flex-direction: row;
+    padding: var(--padding-2xs) var(--padding-15xl) var(--padding-3xs);
+    box-sizing: border-box;
+    z-index: 2;
+  }
+  .cta-container,
+  .form-container,
+  .form-container-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .form-container-wrapper {
+    width: 1394px;
+    flex-direction: row;
+    padding: 0 var(--padding-43xl);
+    box-sizing: border-box;
+    margin-top: -37px;
+  }
+  .cta-container {
+    align-self: stretch;
+    flex-direction: column;
+  }
+  .personal-info-child {
+    height: 849px;
+    width: 1270px;
+    position: relative;
+    background-color: var(--color-lightsteelblue);
+    display: none;
+    max-width: 100%;
+  }
+  .tick-circle-4 {
+    height: 19px;
+    width: 19px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .donasi-anda {
+    height: 34px;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 100px;
+    z-index: 1;
+  }
+  .donation-amount-input {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-11xs);
+  }
+  .money-icon-container-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-darkslateblue-100);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .icon-money {
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 33px;
+    height: 32px;
+    z-index: 2;
+  }
+  .money-icon-container {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-darkslateblue-100);
+    height: 40px;
+    width: 52px;
+    position: relative;
+    z-index: 1;
+  }
+  .input-placeholder {
+    height: 40px;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: var(--white);
+    border: 1px solid var(--color-darkslateblue-200);
+    box-sizing: border-box;
+    min-width: 192px;
+    z-index: 2;
+    margin-left: -5px;
+  }
+  .amount-input,
+  .donation-amount-input-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .amount-input {
+    flex-direction: row;
+    row-gap: 20px;
+  }
+  .donation-amount-input-parent {
+    flex-direction: column;
+    padding: 0 0 8px;
+  }
+  .input-fields,
+  .nama {
+    position: relative;
+    z-index: 1;
+  }
+  .nama {
+    height: 34px;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    min-width: 47px;
+  }
+  .input-fields {
+    align-self: stretch;
+    height: 40px;
+    border-radius: var(--br-9xs);
+    background-color: var(--white);
+    border: 1px solid var(--color-darkslateblue-200);
+    box-sizing: border-box;
+  }
+  .field-labels {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .e-mail {
+    height: 34px;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    min-width: 51px;
+    z-index: 2;
+  }
+  .field-labels-child {
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: var(--white);
+    border: 1px solid var(--color-darkslateblue-200);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .field-labels1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 5px;
+  }
+  .no-telp {
+    height: 34px;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    min-width: 61px;
+    z-index: 2;
+  }
+  .field-labels-item {
+    border: 1px solid var(--color-darkslateblue-200);
+    outline: 0;
+    background-color: var(--white);
+    align-self: stretch;
+    height: 40px;
+    position: relative;
+    border-radius: var(--br-9xs);
+    box-sizing: border-box;
+    min-width: 205px;
+    z-index: 1;
+  }
+  .contact-details,
+  .field-labels2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .field-labels2 {
+    align-self: stretch;
+  }
+  .contact-details {
+    width: 342px;
+    gap: 8px;
+    min-width: 342px;
+    max-width: 100%;
+  }
+  .harapan-anda {
+    height: 34px;
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    min-width: 114px;
+    z-index: 1;
+  }
+  .harapan-input {
+    border: 1px solid var(--color-darkslateblue-200);
+    background-color: var(--color-whitesmoke-200);
+    height: 191px;
+    width: auto;
+    outline: 0;
+    align-self: stretch;
+    position: relative;
+    border-radius: var(--br-9xs);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .metode-bayar,
+  .select {
+    position: relative;
+    text-align: left;
+    display: inline-block;
+  }
+  .metode-bayar {
+    height: 34px;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+    color: var(--color-black);
+    flex-shrink: 0;
+    min-width: 110px;
+    z-index: 1;
+  }
+  .select {
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: rgba(0, 0, 0, 0.5);
+    min-width: 31px;
+  }
+  .ictwotone-arrow-drop-down-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 24px;
+  }
+  .selector {
+    align-self: stretch;
+    border: 1px solid var(--color-gray-100);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px var(--padding-base);
+    gap: var(--gap-xl);
+  }
+  .option1 {
+    align-self: stretch;
+    width: 26px;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+  }
+  .option {
+    width: 487px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .option3 {
+    align-self: stretch;
+    width: 32px;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-gray-100);
+    text-align: left;
+    display: inline-block;
+  }
+  .option2 {
+    width: 487px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .option5 {
+    width: 50px;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    display: none;
+  }
+  .option4 {
+    width: 414px;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+    box-sizing: border-box;
+  }
+  .option7 {
+    width: 37px;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 24px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    display: none;
+  }
+  .option-list,
+  .option6 {
+    box-sizing: border-box;
+    align-items: flex-start;
+  }
+  .option6 {
+    width: 414px;
+    display: none;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: var(--padding-base);
+  }
+  .option-list {
+    width: 487px;
+    height: 112px;
+    background-color: var(--white);
+    border-right: 1px solid var(--color-gray-100);
+    border-bottom: 1px solid var(--color-gray-100);
+    border-left: 1px solid var(--color-gray-100);
+    overflow-x: auto;
+    flex-shrink: 0;
+    display: flex;
+    max-width: 100%;
+  }
+  .dropdown-keeps-selection,
+  .metode-bayar-parent,
+  .option-list {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .dropdown-keeps-selection {
+    align-self: stretch;
+    height: 57px;
+    border-radius: var(--br-9xs);
+    background-color: var(--white);
+    border: 1px solid var(--color-darkslateblue-200);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .metode-bayar-parent {
+    width: 487px;
+    gap: 10px;
+  }
+  .harapan-fields,
+  .harapan-wrapper,
+  .metode-bayar-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .harapan-fields {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.5px;
+  }
+  .harapan-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 var(--padding-2xs) 0 0;
+    box-sizing: border-box;
+  }
+  .konfirmasi {
+    position: relative;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 71px;
+  }
+  .konfirmasi-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-mini) 64px;
+    background-color: var(--color-darkslateblue-100);
+    border-radius: var(--br-7xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+  }
+  .konfirmasi-wrapper:hover {
+    background-color: #4785d6;
+  }
+  .harapan-wrapper-parent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 392px;
+    min-width: 389px;
+    max-width: 100%;
+  }
+  .personal-info,
+  .personal-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .personal-info {
+    flex: 1;
+    background-color: var(--color-lightsteelblue);
+    padding: var(--padding-6xl) 70px 51px 69px;
+    gap: 190px;
+  }
+  .personal-info-wrapper {
+    width: 1394px;
+    padding: 0 var(--padding-43xl);
+  }
+  .call-to-action,
+  .content-container-parent,
+  .hero-content-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .call-to-action {
+    align-items: flex-start;
+    margin: -8px 0 0;
+  }
+  .content-container-parent,
+  .hero-content-parent {
+    align-items: flex-end;
+    text-align: justify;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  .content-container-parent {
+    align-items: flex-start;
+    gap: 75px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--gray-1);
+    font-family: var(--font-poppins);
+  }
+  .background-icon {
+    width: 1437px;
+    height: 409px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .learn-more {
+    align-self: stretch;
+    height: 42.3px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .artikel,
+  .donasi3,
+  .kegiatan,
+  .konsultasi1,
+  .kontak,
+  .tentang-kami {
+    margin: 0;
+  }
+  .about-alyeska-press-container {
+    width: 93.8px;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-200);
+    display: inline-block;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .learn-more-parent {
+    position: absolute;
+    top: 0.2px;
+    left: 243.4px;
+    width: 97.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8.3px;
+  }
+  .tickets-booking {
+    height: 74.1px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .ticket-booking {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1.4px;
+  }
+  .donasi4,
+  .konsultasi2,
+  .pencarian-kegitan {
+    margin: 0;
+  }
+  .lift-tickets-season-container {
+    margin-top: -23.30000000000109px;
+    height: 141.1px;
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .season-pass,
+  .ticket-booking-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .season-pass {
+    width: 137.4px;
+    height: 117.8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+  }
+  .ticket-booking-parent {
+    position: absolute;
+    top: 0;
+    left: 433.8px;
+    width: 246.8px;
+    flex-direction: column;
+  }
+  .contact-us {
+    width: 139.2px;
+    height: 48.6px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .lift-tickets-season {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-200);
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .contact-us-parent {
+    position: absolute;
+    top: 0;
+    left: 647.7px;
+    width: 184.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.4px;
+  }
+  .logo-background {
+    position: absolute;
+    width: calc(100% - 13.4px);
+    top: 0.4px;
+    right: 7.6px;
+    left: 5.8px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 115.7px;
+  }
+  .karya-seni-tanpa-judul-2-11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .logo-background-parent {
+    position: absolute;
+    top: 47.2px;
+    left: 0;
+    width: 120.3px;
+    height: 137.6px;
+    z-index: 1;
+  }
+  .social {
+    height: 36px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .social-media {
+    width: 56.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .bxl-facebook-icon,
+  .instagram-logo-icon {
+    position: relative;
+    min-height: 18px;
+    z-index: 1;
+  }
+  .bxl-facebook-icon {
+    align-self: stretch;
+    width: 9.7px;
+    max-height: 100%;
+  }
+  .instagram-logo-icon {
+    height: 17.6px;
+    width: 18.7px;
+    object-fit: cover;
+  }
+  .bxl-twitter-icon {
+    width: 20.4px;
+    height: 15.6px;
+    position: relative;
+    z-index: 1;
+  }
+  .twitter-icon-container {
+    width: 20.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+  }
+  .social-icons {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .social-media-parent {
+    position: absolute;
+    top: 6px;
+    left: 911.4px;
+    width: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14.5px;
+  }
+  .footer-content {
+    width: 1013.4px;
+    height: 262.4px;
+    position: relative;
+    max-width: 100%;
+  }
+  .divider,
+  .divider1 {
+    position: absolute;
+    top: 0;
+    left: 0.2px;
+    background-color: var(--color-gray-300);
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .divider1 {
+    top: 0.1px;
+    left: 0;
+    z-index: 2;
+  }
+  .dividers {
+    height: 1.2px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .dividers-wrapper,
+  .footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .dividers-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 18.9px;
+    box-sizing: border-box;
+  }
+  .footer-container {
+    width: 1113.4px;
+    flex-direction: column;
+    gap: var(--gap-9xl);
+  }
+  .alyeska-resor {
+    height: 34.9px;
+    width: 248.9px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .alyeska-resor-wrapper {
+    width: 1097.3px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .background-parent,
+  .donasi {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .background-parent {
+    margin-left: -2px;
+    align-self: stretch;
+    background-color: var(--color-steelblue);
+    align-items: flex-end;
+    padding: var(--padding-6xl) 155px 13.5px;
+    box-sizing: border-box;
+    gap: var(--gap-25xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+  .donasi {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-whitesmoke-200);
+    overflow: hidden;
+    align-items: flex-start;
+    gap: 89px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .cta-content {
+      padding-left: 30px;
+      padding-right: 29px;
+      box-sizing: border-box;
+    }
+    .form-container-wrapper {
+      padding-left: var(--padding-12xl);
+      padding-right: var(--padding-12xl);
+      box-sizing: border-box;
+    }
+    .contact-details,
+    .harapan-fields {
+      flex: 1;
+    }
+    .personal-info {
+      flex-wrap: wrap;
+      gap: 95px;
+      padding-left: var(--padding-15xl);
+      padding-right: 35px;
+      box-sizing: border-box;
+    }
+    .personal-info-wrapper {
+      padding-left: var(--padding-12xl);
+      padding-right: var(--padding-12xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .home-nav-link {
+      display: none;
+    }
+    .navigation-links {
+      width: 0;
+    }
+    .hero-content {
+      padding-left: var(--padding-4xl);
+      padding-right: var(--padding-4xl);
+      box-sizing: border-box;
+    }
+    .donasi2 {
+      font-size: 32px;
+    }
+    .personal-info {
+      padding-top: var(--padding-9xl);
+      padding-bottom: 33px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .navigation-wrapper {
+      gap: 23px;
+    }
+    .content-container {
+      padding-left: 61px;
+      padding-right: var(--padding-17xl);
+      box-sizing: border-box;
+    }
+    .cta-content {
+      gap: var(--gap-9xl);
+    }
+    .contact-details {
+      min-width: 100%;
+    }
+    .harapan-wrapper-parent {
+      gap: 196px;
+      min-width: 100%;
+    }
+    .personal-info {
+      gap: var(--gap-28xl);
+    }
+    .content-container-parent {
+      gap: 37px;
+    }
+    .background-parent {
+      gap: var(--gap-3xl);
+      padding-left: var(--padding-58xl);
+      padding-right: var(--padding-58xl);
+      box-sizing: border-box;
+    }
+    .donasi {
+      gap: var(--gap-25xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .contact-link-wrapper {
+      display: none;
+    }
+    .contact-nav-link {
+      width: 41px;
+    }
+    .content-container {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .salurkan-donasi-tebaik,
+    .terkadang-pertolongan-bukan {
+      font-size: var(--font-size-base);
+    }
+    .donasi2 {
+      font-size: 24px;
+    }
+    .cta-content {
+      padding-top: var(--padding-9xl);
+      padding-bottom: var(--padding-4xl);
+      box-sizing: border-box;
+    }
+    .input-placeholder {
+      margin-left: 0;
+    }
+    .amount-input {
+      flex-wrap: wrap;
+    }
+    .harapan-wrapper-parent {
+      gap: 98px;
+    }
+    .personal-info {
+      gap: 24px;
+      padding-bottom: 21px;
+      box-sizing: border-box;
+    }
+    .content-container-parent {
+      gap: 19px;
+    }
+    .background-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  

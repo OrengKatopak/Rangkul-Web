@@ -1,0 +1,864 @@
+.kontak-kami-child {
+    align-self: stretch;
+    height: 68px;
+    position: relative;
+    background-color: transparent;
+    display: none;
+  }
+  .home {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 49px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .navigation-items {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 7px 0 0;
+    box-sizing: border-box;
+  }
+  .konsultasi {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 78px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .navigation-items1 {
+    width: 93px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 8px 0 0;
+    box-sizing: border-box;
+  }
+  .activity {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 61px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .navigation-items2 {
+    width: 73px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xs) 0 0;
+    box-sizing: border-box;
+  }
+  .about {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 50px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .frame-child {
+    height: 35px;
+    width: 88px;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-steelblue);
+    display: none;
+  }
+  .contact {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 59px;
+    z-index: 3;
+  }
+  .rectangle-parent {
+    border-radius: var(--br-3xs);
+    background-color: var(--color-steelblue);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 14px var(--padding-10xs) var(--padding-mini);
+    z-index: 2;
+    color: var(--white);
+  }
+  .donasi {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 57px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .shape-icon {
+    position: absolute;
+    height: calc(100% - 16px);
+    top: 8px;
+    bottom: 8px;
+    left: 1264px;
+    border-radius: 50%;
+    max-height: 100%;
+    width: 52px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .decorative-elements {
+    height: 100%;
+    width: 1476px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: -60px;
+    bottom: 0;
+  }
+  .main-navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 18px var(--padding-xl) var(--padding-mini) 363px;
+    box-sizing: border-box;
+    gap: 31.4px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--gray-1);
+    font-family: var(--font-poppins);
+  }
+  .frame-item {
+    position: absolute;
+    width: calc(100% - 7px);
+    top: 1px;
+    right: 4px;
+    left: 3px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 53px;
+  }
+  .karya-seni-tanpa-judul-2-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .rectangle-group {
+    position: absolute;
+    top: 8px;
+    left: 91px;
+    width: 63px;
+    height: 63px;
+    z-index: 2;
+  }
+  .navigation {
+    align-self: stretch;
+    height: 139px;
+    position: relative;
+    max-width: 100%;
+  }
+  .for-more {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 125px;
+  }
+  .more-info,
+  .more-info-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  .more-info-link {
+    width: 320px;
+    border-radius: var(--br-9xs);
+    background-color: #1746a2;
+    padding: 0 var(--padding-xl) 2px 39px;
+    white-space: nowrap;
+  }
+  .more-info {
+    width: 1356px;
+    padding: 0 var(--padding-xl) 99px;
+    max-width: 100%;
+  }
+  .hubungi-kami {
+    margin: 0;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    line-height: 140%;
+    font-weight: 400;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+  .hubungi-kami,
+  .icon,
+  .kontak {
+    position: relative;
+  }
+  .icon {
+    height: 52.3px;
+    width: 52.3px;
+    flex-shrink: 0;
+  }
+  .kontak {
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    display: inline-block;
+    min-width: 50px;
+  }
+  .contact-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+  }
+  .contact-data {
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-jost);
+    color: var(--color-black);
+    display: inline-block;
+    min-width: 114px;
+    white-space: nowrap;
+  }
+  .contact-label-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 7px;
+    flex-shrink: 0;
+  }
+  .contact-details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: 14.7px;
+  }
+  .address-content-child,
+  .rangkulgmailcom {
+    position: relative;
+    flex-shrink: 0; 
+  }
+  .address-content-child {
+    height: 52.3px;
+    width: 52.3px;
+  }
+  .rangkulgmailcom {
+    text-decoration: underline;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    color: inherit;
+  }
+  .address-content,
+  .rangkulgmailcom-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rangkulgmailcom-wrapper {
+    flex-direction: column;
+    padding: 16px 0 0;
+  }
+  .address-content {
+    flex-direction: row;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: 13.7px;
+  }
+  .icon1,
+  .mentengjakarta-pusatindonesi {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .icon1 {
+    height: 52.3px;
+    width: 52.3px;
+  }
+  .mentengjakarta-pusatindonesi {
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .address-content1,
+  .mentengjakarta-pusatindonesi-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .mentengjakarta-pusatindonesi-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-xl) 0 0;
+  }
+  .address-content1 {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 11.7px;
+    color: var(--color-black);
+    font-family: var(--font-jost);
+  }
+  .address-details {
+    flex: 1;
+    flex-direction: column;
+    gap: 19.7px;
+  }
+  .address,
+  .address-details,
+  .contact-info,
+  .form-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .address {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 var(--padding-10xs);
+  }
+  .contact-info,
+  .form-container {
+    flex-direction: column;
+  }
+  .contact-info {
+    align-self: stretch;
+    gap: 23.7px;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+  }
+  .form-container {
+    position: absolute;
+    top: 70px;
+    left: 71px;
+    width: 276px;
+    gap: 30px;
+  }
+  .form-field {
+    border: 1px solid var(--blue-1);
+    background-color: var(--white);
+    height: 289px;
+    width: 481px;
+    outline: 0;
+    position: absolute;
+    top: 276px;
+    left: 465px;
+    border-radius: var(--br-9xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+  }
+  .nama {
+    height: 36px;
+    position: relative;
+    display: inline-block;
+    min-width: 49px;
+  }
+  .name-input {
+    border: 1px solid var(--blue-1);
+    outline: 0;
+    background-color: var(--white);
+    align-self: stretch;
+    height: 52px;
+    position: relative;
+    border-radius: var(--br-9xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    min-width: 250px;
+  }
+  .name-field {
+    position: absolute;
+    top: 0;
+    left: 2px;
+    width: 481px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    max-width: 100%;
+  }
+  .pesan-anda {
+    position: absolute;
+    top: 177px;
+    left: 0;
+    display: inline-block;
+    min-width: 98px;
+    z-index: 1;
+  }
+  .email-field {
+    border: 1px solid var(--blue-1);
+    outline: 0;
+    background-color: var(--white);
+    position: absolute;
+    top: 125px;
+    left: 0;
+    border-radius: var(--br-9xs);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    width: 481px;
+    height: 52px;
+  }
+  .e-mail {
+    position: absolute;
+    top: 89px;
+    left: 2px;
+    display: inline-block;
+    min-width: 49.6px;
+    z-index: 1;
+  }
+  .message-fields {
+    align-self: stretch;
+    height: 213px;
+    position: relative;
+    max-width: 100%;
+  }
+  .kirim {
+    position: relative;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-acme);
+    color: #f4f4f4;
+    text-align: left;
+    display: inline-block;
+    min-width: 41px;
+  }
+  .button-label {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-4xs) 49px;
+    background-color: #205eb1;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .button-label:hover {
+    background-color: #4785d6;
+  }
+  .button-label,
+  .message-form,
+  .submit-button {
+    display: flex;
+    align-items: flex-start;
+  }
+  .submit-button {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 21px 0 var(--padding-xl);
+  }
+  .message-form {
+    position: absolute;
+    top: 62px;
+    left: 465px;
+    width: 483px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 327px;
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+  }
+  .contact-form {
+    margin-right: -23px;
+    width: 1440px;
+    height: 1529px;
+    position: relative;
+    background-color: #bacbe4;
+    max-width: 102%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 20px;
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  .background-icon {
+    width: 1433px;
+    height: 409px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .learn-more {
+    align-self: stretch;
+    height: 42.3px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .artikel,
+  .donasi1,
+  .kegiatan,
+  .konsultasi1,
+  .kontak1,
+  .tentang-kami {
+    margin: 0;
+  }
+  .about-alyeska-press-container {
+    width: 93.6px;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-200);
+    display: inline-block;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .info-links {
+    position: absolute;
+    top: 0.2px;
+    left: 242.7px;
+    width: 97.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8.3px;
+  }
+  .tickets-booking {
+    height: 74.1px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .booking-link {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1.5px;
+  }
+  .donasi2,
+  .konsultasi2,
+  .pencarian-kegitan {
+    margin: 0;
+  }
+  .lift-tickets-season-container {
+    margin-top: -23.299999999999272px;
+    height: 141.1px;
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .booking,
+  .season-pass {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .season-pass {
+    width: 137px;
+    height: 117.8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+  }
+  .booking {
+    position: absolute;
+    top: 0;
+    left: 432.5px;
+    width: 246.2px;
+    flex-direction: column;
+  }
+  .contact-us,
+  .lift-tickets-season {
+    position: relative;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .contact-us {
+    width: 138.8px;
+    height: 48.6px;
+    display: inline-block;
+  }
+  .lift-tickets-season {
+    align-self: stretch;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-200);
+    mix-blend-mode: normal;
+  }
+  .contact-footer {
+    position: absolute;
+    top: 0;
+    left: 645.8px;
+    width: 184px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.4px;
+  }
+  .frame-inner {
+    position: absolute;
+    width: calc(100% - 13.4px);
+    top: 0.4px;
+    right: 7.7px;
+    left: 5.7px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 115.7px;
+  }
+  .karya-seni-tanpa-judul-2-11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .rectangle-container {
+    position: absolute;
+    top: 47.2px;
+    left: 0;
+    width: 120px;
+    height: 137.6px;
+    z-index: 1;
+  }
+  .social {
+    height: 36px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .social-header {
+    width: 56.7px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .bxl-facebook-icon,
+  .instagram-logo-icon {
+    position: relative;
+    min-height: 18px;
+    z-index: 1;
+  }
+  .bxl-facebook-icon {
+    align-self: stretch;
+    width: 9.7px;
+    max-height: 100%;
+  }
+  .instagram-logo-icon {
+    height: 17.6px;
+    width: 18.6px;
+    object-fit: cover;
+  }
+  .bxl-twitter-icon {
+    width: 20.3px;
+    height: 15.6px;
+    position: relative;
+    z-index: 1;
+  }
+  .twitter-icon {
+    width: 20.3px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+  }
+  .social-icons,
+  .social-media,
+  .twitter-icon {
+    display: flex;
+    align-items: flex-start;
+  }
+  .social-icons {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .social-media {
+    position: absolute;
+    top: 6px;
+    left: 908.8px;
+    width: 101.7px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14.5px;
+  }
+  .info-and-links {
+    width: 1010.5px;
+    height: 262.4px;
+    position: relative;
+    max-width: 100%;
+  }
+  .divider,
+  .divider1 {
+    position: absolute;
+    top: 0;
+    left: 0.1px;
+    background-color: var(--color-gray-300);
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .divider1 {
+    top: 0.1px;
+    left: 0;
+    z-index: 2;
+  }
+  .divider-parent {
+    height: 1.2px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .footer-content,
+  .footer-content-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .footer-content-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 18.8px;
+    box-sizing: border-box;
+  }
+  .footer-content {
+    width: 1110.2px;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .alyeska-resor {
+    height: 34.9px;
+    width: 248.2px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .copyright {
+    width: 1094.2px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .background-parent,
+  .kontak-kami {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left;
+    color: var(--white);
+  }
+  .background-parent {
+    margin-right: -5px;
+    align-self: stretch;
+    background-color: var(--color-steelblue);
+    padding: 25px 154.6px 13.5px;
+    box-sizing: border-box;
+    gap: 44px;
+    max-width: 101%;
+    flex-shrink: 0;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-poppins);
+  }
+  .kontak-kami {
+    width: 100%;
+    height: 2223px;
+    position: relative;
+    background-color: var(--white);
+    overflow: hidden;
+    gap: 1px;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 30px;
+    font-family: var(--font-jost);
+  }
+  @media screen and (max-width: 975px) {
+    .main-navigation {
+      padding-left: 181px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .background-parent {
+      gap: 22px;
+      padding-left: var(--padding-58xl);
+      padding-right: var(--padding-58xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .main-navigation {
+      gap: 16px;
+      padding-left: 90px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .hubungi-kami {
+      font-size: var(--font-size-base);
+      line-height: 22px;
+    }
+    .background-parent {
+      padding-left: var(--padding-xl);

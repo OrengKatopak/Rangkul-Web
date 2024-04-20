@@ -1,0 +1,677 @@
+.main-container-child {
+    height: 78px;
+    width: 1440px;
+    position: relative;
+    background-color: var(--white);
+    display: none;
+    max-width: 100%;
+  }
+  .left-element {
+    position: absolute;
+    width: calc(100% - 7px);
+    top: 1px;
+    right: 4px;
+    left: 3px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 53px;
+  }
+  .karya-seni-tanpa-judul-2-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .left-element-parent {
+    height: 63px;
+    width: 63px;
+    position: relative;
+    z-index: 1;
+  }
+  .home {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 45px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .navigation-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .konsultasi {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 78px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .navigation-items1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .activity {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 61px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .navigation-items2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .about {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 50px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .navigation-items3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .contact {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 59px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .navigation-items4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .donasi {
+    height: 32px;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 57px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .navigation-items5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 0 0;
+  }
+  .navigation-icon {
+    height: 52px;
+    width: 52px;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .navigation-links {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .main-container,
+  .navigation {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .navigation {
+    width: 680px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+  }
+  .main-container {
+    align-self: stretch;
+    background-color: var(--white);
+    flex-direction: row;
+    justify-content: center;
+    padding: 13px var(--padding-xl) 2px 39px;
+    gap: 470px;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--gray-1);
+    font-family: var(--font-poppins);
+  }
+  .header-content-child {
+    align-self: stretch;
+    width: 1440px;
+    position: relative;
+    background-color: var(--color-cornflowerblue);
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .header-left-icon {
+    height: 426px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .header-right {
+    height: 72px;
+    width: 61px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    background-color: #94cfdd;
+    z-index: 2;
+  }
+  .header,
+  .header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .header-content {
+    flex: 1;
+    background-color: var(--color-cornflowerblue);
+    position: relative;
+  }
+  .header {
+    align-self: stretch;
+    padding: 0 0 115px;
+    box-sizing: border-box;
+  }
+  .blank-line,
+  .modifikasi-perilaku-teknik {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+  .kecemasan-sosial-pada {
+    margin: 0;
+  }
+  .modifikasi-perilaku-teknik-container {
+    margin: 0;
+    height: 78px;
+    position: relative;
+    font-size: inherit;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .modifikasi-perilaku-teknik-sha-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-9xs);
+  }
+  .blank-line1,
+  .kecemasan-sosial-pada1,
+  .menentukan-perilaku-target,
+  .mengidentifikasi-respons-awal,
+  .menguatan-perilaku-awal,
+  .penelitian-menunjukkan-bahwa,
+  .prosedur-teknik-shaping,
+  .teknik-shaping-memiliki {
+    margin-block-start: 0;
+    margin-block-end: 10px;
+  }
+  .blank-line2 {
+    margin: 0;
+  }
+  .kecemasan-sosial-pada-container {
+    margin: 0;
+    width: 1106px;
+    height: 1288px;
+    position: relative;
+    font-size: 26px;
+    font-weight: 500;
+    font-family: inherit;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: justify;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .body,
+  .body-content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .body-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 68px;
+  }
+  .body {
+    width: 1399px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 277px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 36px;
+    color: #000;
+    font-family: var(--font-inter);
+  }
+  .background-icon {
+    width: 1440px;
+    height: 409px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .learn-more {
+    align-self: stretch;
+    height: 42.3px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .artikel1,
+  .donasi1,
+  .kegiatan,
+  .konsultasi1,
+  .kontak,
+  .tentang-kami {
+    margin: 0;
+  }
+  .about-alyeska-press-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-100);
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .information-links {
+    position: absolute;
+    top: 0.2px;
+    left: 243.9px;
+    width: 98.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8.3px;
+  }
+  .tickets-booking {
+    height: 74.1px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .booking {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 1.4px;
+  }
+  .donasi2,
+  .konsultasi2,
+  .pencarian-kegitan {
+    margin: 0;
+  }
+  .lift-tickets-season-container {
+    margin-top: -23.30000000000109px;
+    height: 141.1px;
+    flex: 1;
+    position: relative;
+    line-height: 30px;
+    display: inline-block;
+    mix-blend-mode: normal;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .season-pass,
+  .tickets {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .season-pass {
+    width: 137.7px;
+    height: 117.8px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-100);
+  }
+  .tickets {
+    position: absolute;
+    top: 0;
+    left: 434.7px;
+    width: 247.3px;
+    flex-direction: column;
+  }
+  .contact-us {
+    width: 139.5px;
+    height: 48.6px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .lift-tickets-season {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    line-height: 30px;
+    color: var(--color-gray-100);
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .contact1 {
+    position: absolute;
+    top: 0;
+    left: 649px;
+    width: 184.9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.4px;
+  }
+  .social-icon-left {
+    position: absolute;
+    width: calc(100% - 13.4px);
+    top: 0.4px;
+    right: 7.7px;
+    left: 5.7px;
+    border-radius: var(--br-7xl-5);
+    background-color: var(--color-gainsboro);
+    height: 115.7px;
+  }
+  .karya-seni-tanpa-judul-2-11 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .social-icon-left-parent {
+    position: absolute;
+    top: 47.2px;
+    left: 0;
+    width: 120.6px;
+    height: 137.6px;
+    z-index: 1;
+  }
+  .social {
+    height: 36px;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .social-label {
+    width: 56.9px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+  }
+  .bxl-facebook-icon,
+  .instagram-logo-icon {
+    position: relative;
+    min-height: 18px;
+    z-index: 1;
+  }
+  .bxl-facebook-icon {
+    align-self: stretch;
+    width: 9.7px;
+    max-height: 100%;
+  }
+  .instagram-logo-icon {
+    height: 17.6px;
+    width: 18.7px;
+    object-fit: cover;
+  }
+  .bxl-twitter-icon {
+    width: 20.4px;
+    height: 15.6px;
+    position: relative;
+    z-index: 1;
+  }
+  .twitter-icon {
+    width: 20.4px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+  }
+  .icons,
+  .social-links,
+  .twitter-icon {
+    display: flex;
+    align-items: flex-start;
+  }
+  .icons {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .social-links {
+    position: absolute;
+    top: 6px;
+    left: 913.3px;
+    width: 102.1px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14.5px;
+  }
+  .information {
+    width: 1015.4px;
+    height: 262.4px;
+    position: relative;
+    max-width: 100%;
+  }
+  .divider,
+  .divider1 {
+    position: absolute;
+    top: 0;
+    left: 0.2px;
+    background-color: var(--color-gray-200);
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .divider1 {
+    top: 0.1px;
+    left: 0;
+    z-index: 2;
+  }
+  .divider-parent {
+    height: 1.2px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .footer-content,
+  .footer-content-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .footer-content-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 18.9px;
+    box-sizing: border-box;
+  }
+  .footer-content {
+    width: 1115.7px;
+    flex-direction: column;
+    gap: 28px;
+  }
+  .alyeska-resor {
+    height: 34.9px;
+    width: 249.4px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    mix-blend-mode: normal;
+    z-index: 1;
+  }
+  .copyright {
+    width: 1099.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .artikel,
+  .background-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .background-parent {
+    align-self: stretch;
+    background-color: #487bc0;
+    padding: 25px 155.3px 13.5px;
+    box-sizing: border-box;
+    gap: 44px;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--white);
+    font-family: var(--font-poppins);
+  }
+  .artikel {
+    width: 100%;
+    position: relative;
+    background-color: var(--white);
+    overflow: hidden;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .main-container {
+      gap: 235px;
+    }
+    .body-content {
+      gap: 34px;
+    }
+    .body {
+      padding-bottom: 180px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .modifikasi-perilaku-teknik-container {
+      font-size: 29px;
+      line-height: 16px;
+    }
+    .body {
+      padding-bottom: 117px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .navigation-links {
+      display: none;
+    }
+    .navigation {
+      width: 0;
+    }
+    .main-container {
+      gap: 117px;
+    }
+    .header {
+      padding-bottom: 75px;
+      box-sizing: border-box;
+    }
+    .body-content {
+      gap: 17px;
+    }
+    .background-parent {
+      gap: 22px;
+      padding-left: var(--padding-58xl);
+      padding-right: var(--padding-58xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .main-container {
+      gap: 59px;
+    }
+    .modifikasi-perilaku-teknik-container {
+      font-size: 22px;
+      line-height: 12px;
+    }
+    .kecemasan-sosial-pada-container {
+      font-size: 21px;
+    }
+    .body {
+      padding-bottom: 76px;
+      box-sizing: border-box;
+    }
+    .background-parent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+  }
